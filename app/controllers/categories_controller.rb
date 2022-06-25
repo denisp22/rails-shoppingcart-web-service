@@ -1,9 +1,7 @@
 class CategoriesController < ApplicationController
 
-  def create
-    Category.create(
-      name: params[:name]
-    )
+  def index
+    render json: Category.all
   end
 
 end
