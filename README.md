@@ -1,24 +1,20 @@
-# README
+### API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## ENV
 
-Things you may want to cover:
+1. DEV_DB_HOST
+2. DEV_DB_HOST_USERNAME
+3. DEV_DB_HOST_PASSWORD
+4. DEV_DB_NAME
+5. PRODUCTION_DB_HOST
+6. PRODUCTION_DB_USERNAME
+7. PRODUCTION_DB_PASSWORD
+8. PRODUCTION_DB_NAME
+9. SENDGRID_API_KEY
 
-* Ruby version
+## Other bootcamp projects: 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Shopping cart CLI: https://github.com/luislopez-dev/Shopping-Cart-CLI
+2. MVC CRUD: https://github.com/luislopez-dev/Product-MVC-CRUD 
+3. CRUD REST API: https://github.com/luislopez-dev/Products-CRUD-API
+4. Some of the bootcamp coding challenges: https://replit.com/@LuisLopez73?path=folder/Boot-camp%20coding%20challenges

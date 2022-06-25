@@ -1,0 +1,2 @@
+class AWS
+end

@@ -1,0 +1,2 @@
+class SendGrid
+end

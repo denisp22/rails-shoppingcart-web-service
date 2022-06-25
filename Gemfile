@@ -39,8 +39,17 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-# Get for handling environmental variables
+# gem for handling environmental variables
 gem "figaro"
 
 # Add a comment summarizing the current schema
 gem 'annotate'
+
+# Use Active Model has_secure_password
+gem 'bcrypt', '~> 3.1.7'
+
+# SDK for Amazon web services
+gem 'aws-sdk', '~> 3'
+
+# Sendgrid SDK
+gem 'sendgrid-ruby'

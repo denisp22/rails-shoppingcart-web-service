@@ -81,6 +81,7 @@ test:
 #
 production:
   <<: *default
-  database: web_services_production
-  username: web_services
-  password: <%= ENV['WEB_SERVICES_DATABASE_PASSWORD'] %>
+  database: <%= ENV['PRODUCTION_DB_NAME'] %>
+  username: <%= ENV['PRODUCTION_DB_HOST_USERNAME'] %>
+  password: <%= ENV['PRODUCTION_DB_PASSWORD'] %>
+  host: <%= ENV['PRODUCTION_DB_HOST'] %>

@@ -1,0 +1,32 @@
+# == Schema Information
+#
+# Table name: orders
+#
+#  id               :bigint           not null, primary key
+#  client_name      :string
+#  delivery_address :text
+#  email            :string
+#  phone            :string
+#  pickup_time      :time
+#  products         :string           default([]), is an Array
+#  shipping_cost    :float
+#  sub_total        :float
+#  taxes            :float
+#  total            :float
+#  created_at       :datetime         not null
+#  updated_at       :datetime         not null
+#
+
+one:
+  delivery_address: MyText
+  client_name: MyString
+  pickup_time: 2022-06-15 03:10:54
+  phone: MyString
+  email: MyString
+
+two:
+  delivery_address: MyText
+  client_name: MyString
+  pickup_time: 2022-06-15 03:10:54
+  phone: MyString
+  email: MyString
