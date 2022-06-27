@@ -16,12 +16,13 @@
 # Indexes
 #
 #  index_products_on_category_id  (category_id)
+#  index_products_on_name         (name) UNIQUE
 #
 # Foreign Keys
 #
 #  fk_rails_...  (category_id => categories.id)
 #
 class Product < ApplicationRecord
-  validates :name, presence: true, uniqueness: true
+  validates_uniqueness_of :name
   belongs_to :category
 end

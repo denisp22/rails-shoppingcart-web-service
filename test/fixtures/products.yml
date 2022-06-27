@@ -16,6 +16,7 @@
 # Indexes
 #
 #  index_products_on_category_id  (category_id)
+#  index_products_on_name         (name) UNIQUE
 #
 # Foreign Keys
 #

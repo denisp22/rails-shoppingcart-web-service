@@ -17,35 +17,6 @@ class ProductsController < ApplicationController
     render json: @product
   end
 
-  def destroy
-    @product = Product.find(params[:id])
-    index
-  end
-
-  def create
-    @product = Product.create(
-      name: params[:name],
-      price: params[:price],
-      img: params[:img],
-      description: params[:description],
-      stock: params[:stock],
-      brand: params[:brand],
-      category_id: params[:category_id]
-    )
-    render json: @product
-  end
-
-  def update
-    @product = Product.find(params[:id])
-    @product.update(
-      name: params[:name],
-      price: params[:price],
-      img: params[:img],
-      description: params[:description]
-    )
-    render json: @product
-  end
-
   def send_email
 
     from = Email.new(email: 'info@web-items.com')
