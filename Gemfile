@@ -49,7 +49,7 @@ gem 'annotate'
 gem 'bcrypt', '~> 3.1.7'
 
 # SDK for Amazon web services
-gem 'aws-sdk', '~> 3'
+# gem 'aws-sdk', '~> 3'
 
 # Sendgrid SDK
 gem 'sendgrid-ruby'
