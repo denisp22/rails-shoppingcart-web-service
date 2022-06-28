@@ -17,5 +17,6 @@
 #  updated_at       :datetime         not null
 #
 class Order < ApplicationRecord
-  serialize :products, Array
+  # serialize :products, Array
+
 end

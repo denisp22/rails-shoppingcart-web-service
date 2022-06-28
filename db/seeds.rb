@@ -97,7 +97,7 @@ products = [
                             in fruit salads or smoothies.'
             },
             {
-              name: 'Suja Immunity Defense Shot with Turmeric & Probiotics', price: 0, stock: 0, brand: '',
+              name: 'Suja Immunity Defense Shot with Turmeric & Probiotics', price: 16.9, stock: 645, brand: 'Suja',
               category_id: health_medicine_category,
               img: 'https://web-items-media.s3.us-east-2.amazonaws.com/Suja+Immunity+Defense+Shot+with+Turmeric+%26+Probiotics.webp',
               description: 'Support your immune health with the small but mighty Suja Organic Cold-Pressed Immunity Defense Shot.
