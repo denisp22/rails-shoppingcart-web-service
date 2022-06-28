@@ -23,21 +23,21 @@ default: &default
 
 development:
   <<: *default
-  database: <%= ENV['DEV_DB_NAME'] %>
+  database: <%= ENV['DB_NAME'] %>
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user running Rails.
-  username: <%= ENV['DEV_DB_USERNAME'] %>
+  username: <%= ENV['DB_USERNAME'] %>
 
   # The password associated with the postgres role (username).
-  password: <%= ENV['DEV_DB_PASSWORD'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
-  host: <%= ENV['DEV_DB_HOST'] %>
+  host: <%= ENV['DB_HOST'] %>
 
   # The TCP port the server listens on. Defaults to 5432.
   # If your server runs on a different port number, change accordingly.
@@ -81,7 +81,7 @@ test:
 #
 production:
   <<: *default
-  database: <%= ENV['PRODUCTION_DB_NAME'] %>
-  username: <%= ENV['PRODUCTION_DB_HOST_USERNAME'] %>
-  password: <%= ENV['PRODUCTION_DB_PASSWORD'] %>
-  host: <%= ENV['PRODUCTION_DB_HOST'] %>
+  database: <%= ENV['DB_NAME'] %>
+  username: <%= ENV['DB_HOST_USERNAME'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
+  host: <%= ENV['DB_HOST'] %>
