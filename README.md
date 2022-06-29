@@ -34,12 +34,12 @@ The repository of the frontend code of Web Items can be found at: https://github
 ## Project execution
 
 1. Clone this repository
-2. Install the project dependencies by running `gem install`
-3. Create a file with the name `application.yml` and setup the environmental variables described in the previous section. 
-4. Create the project database by running `Rails db:create`
-5. Make the database migrations by running `Rails db:migrate`
-6. Run the database seeds using the following command `Rails db:seed`
-7. Execute the project with the following command `Rails server` or `Rails s`
+2. Install the project dependencies with the following command `gem install`
+3. Create a file with the name `application.yml` inside the `config` folder and setup the environmental variables described in the previous section. 
+4. Create the project database with the following command `Rails db:create`
+5. Run the database migrations with the following command `Rails db:migrate`
+6. Run the database seeds the following command `Rails db:seed`
+7. Finally execute the project with the following command `Rails server` or `Rails s`
 
 ## Endpoints
 
