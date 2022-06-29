@@ -3,20 +3,34 @@
 ## Table of contents
 
 * [Introduction](#introduction)
+* [Frontend](#frontend)
 * [Technology](#technology)
-* [Cloud infrastructure](cloud-infrastructure)
-
+* [Environmental variables](#environmental-variables)
+* [Endpoints](#endpoints)
 ## Introduction
 
-Web Items is an e-commerce site created to offer different supermarket products online.
-At the same time, it is the final project of the Ruby onn rails/React bootcamp. This repository contains the backend API of web-items.com.
+Web Items is an e-commerce site created to offer different supermarket products online, at the same time, it is the final project of the Ruby on rails/React bootcamp. This repository contains the backend API code of web-items.com.
 
-## Technology
+## Frontend
 
-* ruby 2.7.0
+The repository of the frontend code of Web Items can be found at: https://github.com/luislopez-dev/Bootcamp-Final-Project-Frontend
+
+## Technologies
+
+* Ruby 2.7.0
 * Rails 6.1.5
-* pg (postgres) 1.1
+* PG (postgres) 1.1
 * Sendgrid-Ruby
+
+## Environmental variables
+
+1. `DB_HOST:` The host url of the database
+2. `DB_USERNAME:` The database username
+3. `DB_PASSWORD:` The database password
+4. `DB_NAME:` The database name
+5. `SENDGRID_API_KEY:` The API Key of your Sendgrid account. 
+
+## Endpoints
 
 ## Other bootcamp projects: 
 
