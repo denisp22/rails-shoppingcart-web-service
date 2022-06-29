@@ -43,6 +43,43 @@ The repository of the frontend code of Web Items can be found at: https://github
 
 ## Endpoints
 
+### Products
+
+![GET](https://img.shields.io/badge/METHOD-GET-green) **`http://localhost/products`**
+
+The endpoint fetches multiple products
+
+Query parameters:
+
+| Name | Required  | Type  | Description |
+| :---:| :-:| :-:| :-:|
+| offset | false | Number | Defines the initial record on the database query.
+| limit | false | Number | Defines the maximum number of records to return from the database.
+| order | false | String | `desc` or `asc`
+
+![GET](https://img.shields.io/badge/METHOD-GET-green) **`http://localhost/products/:id`**
+
+Theis endpoint finds a product by it's id
+
+### Orders
+![POST](https://img.shields.io/badge/METHOD-POST-blue) **`http://localhost/orders`**
+
+This endpoint creates a new order and sends it to the client via email
+
+| Name | Type  | Description |
+| :---:| :-:| :-:| :-:|
+| client_name | String | Client name
+| delivery_address | String | Order delivery address
+| email | String | Client email
+| phone | String | Client phone number |
+| products | Array | This array contains the identifiers of the selected products by the client
+
+### Categories
+
+![GET](https://img.shields.io/badge/METHOD-GET-green) **`http://localhost/categories`**
+
+The endpoint fetches all the categories from the database
+
 ## Other bootcamp projects: 
 
 1. Shopping cart CLI: https://github.com/luislopez-dev/Shopping-Cart-CLI
