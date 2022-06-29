@@ -55,7 +55,7 @@ Query parameters:
 | :---:| :-:| :-:| :-:|
 | offset | false | Number | Defines the initial record on the database query.
 | limit | false | Number | Defines the maximum number of records to return from the database.
-| order | false | String | `desc` or `asc`
+| order | false | String | It states the order to return the products, the value can be `desc` or `asc`
 
 ![GET](https://img.shields.io/badge/METHOD-GET-green) **`http://localhost/products/:id`**
 
