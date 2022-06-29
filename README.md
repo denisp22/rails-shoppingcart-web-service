@@ -9,7 +9,7 @@
 * [Endpoints](#endpoints)
 ## Introduction
 
-Web Items is an e-commerce site created to offer different supermarket products online, at the same time, it is the final project of the Ruby on rails/React bootcamp. This repository contains the backend API code of web-items.com.
+Web Items is an e-commerce site created to offer different supermarket products online, at the same time, it is the final project of the Ruby on rails/React bootcamp. This repository contains the backend API code of wWeb Items.
 
 ## Frontend
 
