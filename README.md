@@ -67,11 +67,11 @@ This endpoint finds a product by it's id
 This endpoint creates a new order and sends it to the client via email
 
 | Name | Type  | Description |
-| :---:| :-:| :-:| :-:|
+| :---:| :-:| :-:|
 | client_name | String | Client name
 | delivery_address | String | Order delivery address
 | email | String | Client email
-| phone | String | Client phone number |
+| phone | String | Client phone number
 | products | Array | This array contains the identifiers of the selected products by the client
 
 ### Categories
