@@ -45,9 +45,9 @@ The repository of the frontend code of Web Items can be found at: https://github
 
 ### Products
 
-![GET](https://img.shields.io/badge/METHOD-GET-green) **`http://localhost/products`**
+![GET](https://img.shields.io/badge/METHOD-GET-green) **`http://localhost/products?offset=x?limit=x?order=x`**
 
-This endpoint fetches multiple products
+This endpoint fetches multiple `products`
 
 Query parameters:
 
