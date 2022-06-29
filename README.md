@@ -5,39 +5,18 @@
 * [Introduction](#introduction)
 * [Technology](#technology)
 * [Cloud infrastructure](cloud-infrastructure)
-* [Environmental variables](#environmental-variables)
-* [Run](#run)
 
 ## Introduction
 
-El siguiente proyecto es una aplicación web de productos utilizando la arquitectura Modelo Vista Controlador.
-Segundo proyecto del Bootcamp React / Ruby on Rails.
+Web Items is an e-commerce site created to offer different supermarket products online.
+At the same time, it is the final project of the Ruby onn rails/React bootcamp. This repository contains the backend API of web-items.com.
 
 ## Technology
 
 * ruby 2.7.0
 * Rails 6.1.5
 * pg (postgres) 1.1
-* Bootstrap 5
-
-## Cloud infrastructure
-
-## Environmental variables
-
-1. DEV_DB_HOST
-2. DEV_DB_HOST_USERNAME
-3. DEV_DB_HOST_PASSWORD
-4. DEV_DB_NAME
-5. PRODUCTION_DB_HOST
-6. PRODUCTION_DB_USERNAME
-7. PRODUCTION_DB_PASSWORD
-8. PRODUCTION_DB_NAME
-9. SENDGRID_API_KEY
-10. 
-## Run:
-
-1. Clone el repositorio
-2. Diríjase a la carpeta raíz del proyecto e instale las dependencias a través de los siguientes comandos:  `bundle install` y `yarn install`
+* Sendgrid-Ruby
 
 ## Other bootcamp projects: 
 
