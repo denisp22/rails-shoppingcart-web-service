@@ -47,7 +47,7 @@ The repository of the frontend code of Web Items can be found at: https://github
 
 ![GET](https://img.shields.io/badge/METHOD-GET-green) **`http://localhost/products`**
 
-The endpoint fetches multiple products
+This endpoint fetches multiple products
 
 Query parameters:
 
@@ -59,7 +59,7 @@ Query parameters:
 
 ![GET](https://img.shields.io/badge/METHOD-GET-green) **`http://localhost/products/:id`**
 
-Theis endpoint finds a product by it's id
+This endpoint finds a product by it's id
 
 ### Orders
 ![POST](https://img.shields.io/badge/METHOD-POST-blue) **`http://localhost/orders`**
@@ -78,7 +78,7 @@ This endpoint creates a new order and sends it to the client via email
 
 ![GET](https://img.shields.io/badge/METHOD-GET-green) **`http://localhost/categories`**
 
-The endpoint fetches all the categories from the database
+This endpoint fetches all the categories from the database
 
 ## Other bootcamp projects: 
 
