@@ -9,7 +9,7 @@
 
 ## Introduction
 
-Web services on Ruby on Rails for building ecommerce websites. It can be integrated with frontend frameworks such as react, vue.js or angular. 
+Web services on Ruby on Rails for building ecommerce websites. This project can be integrated with frontend frameworks such as react, vue.js or angular. 
 
 Backend API for build
 
